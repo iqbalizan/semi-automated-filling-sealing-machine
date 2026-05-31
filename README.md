@@ -168,15 +168,52 @@ The fabricated machine integrates the dispensing station, filling system, convey
 
 ---
 
-# Electrical and Pneumatic Integration
+# Electrical Integration
 
-## Control Panel Wiring
+The machine integrates industrial electrical wiring, PLC I/O connections, sensor interfaces, power distribution, and pneumatic actuator control to ensure reliable machine operation.
 
-The electrical control panel contains the Siemens S7-1200 PLC, power supply units, relays, terminal blocks, communication modules, and pneumatic valve controls.
+## PLC Control Panel
 
 ![Control Panel](images/wiring.jpeg)
 
-*Figure 23. Electrical control panel and wiring system.*
+*Figure X. Electrical control panel containing the Siemens S7-1200 PLC, power supply units, relay modules, terminal blocks, and pneumatic control components.*
+
+### Main Components
+
+- Siemens S7-1200 PLC
+- 24VDC Power Supply
+- Relay Modules
+- Terminal Blocks
+- Pneumatic Solenoid Valves
+- Industrial Ethernet Communication
+
+---
+
+## PLC Wiring Diagram
+
+![PLC Wiring Diagram](images/PLC_Wiring_Diagram.png)
+
+*Figure X. PLC wiring diagram showing the connection between controller inputs, outputs, sensors, and machine actuators.*
+
+**Skills demonstrated:**
+- PLC I/O Integration
+- Industrial Electrical Wiring
+- Sensor Interface Design
+- Control System Integration
+
+---
+
+## Pneumatic Wiring Diagram
+
+![Pneumatic Wiring Diagram](images/Pneumatic_Wiring_Diagram.png)
+
+*Figure X. Pneumatic circuit used to control the dispensing, filling, relocation, and sealing actuators.*
+
+**Skills demonstrated:**
+- Pneumatic System Design
+- Solenoid Valve Integration
+- Cylinder Control
+- Electro-Pneumatic Automation
 
 ---
 
