@@ -16,7 +16,7 @@ The Semi-Automated Filling and Sealing Machine was developed to automate the cup
 
 ---
 
-# Project Design
+# Mechanical Design
 
 ## 3D CAD Model
 
@@ -54,7 +54,7 @@ The overall system architecture consists of a Siemens PLC, HMI, sensors, and pne
 
 ---
 
-# PLC & HMI Skills Demonstration
+# Control System Development
 
 ## 1. Sequential State Machine Control
 
@@ -217,7 +217,7 @@ The machine integrates industrial electrical wiring, PLC I/O connections, sensor
 
 ---
 
-# Technologies Used
+# Tools & Technologies
 
 - Siemens S7-1200 PLC
 - Siemens SIMATIC HMI
@@ -232,24 +232,24 @@ The machine integrates industrial electrical wiring, PLC I/O connections, sensor
 
 ---
 
-# Skills Demonstrated
+# Engineering Competencies
 
-- PLC Programming
+- Siemens TIA Portal Development
+- PLC Programming (LAD)
+- GRAFCET Design
 - HMI Development
-- Industrial Automation
 - Pneumatic System Integration
-- Machine Design
-- Electrical Wiring
-- Control Panel Assembly
-- System Commissioning
-- Troubleshooting
-- Technical Documentation
+- Industrial Automation
+- Electrical Control Panel Wiring
+- PLC I/O Integration
+- Machine Commissioning
+- Troubleshooting & Debugging
 
 ---
 
 # Demonstration Video
 
-The following video demonstrates the complete operation of the Semi-Automated Filling and Sealing Machine, including the dispensing, filling, relocation, and sealing processes.
+The following video demonstrates the completed machine prototype operating in automatic mode, including cup dispensing, liquid filling, cup relocation, and sealing operations.
 
 ▶️ **FYP Diploma: Semi-Automated Filling and Sealing Machine**
 
