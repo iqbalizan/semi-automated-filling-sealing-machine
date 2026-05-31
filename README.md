@@ -54,99 +54,87 @@ The overall system architecture consists of a Siemens PLC, HMI, sensors, and pne
 
 ---
 
-# PLC Control Logic
+# PLC & HMI Skills Demonstration
 
-The machine control sequence was developed using the GRAFCET methodology to ensure structured and reliable operation.
+## 1. Sequential State Machine Control
 
-## Main GRAFCET
+The machine sequence was designed using GRAFCET methodology to coordinate dispensing, filling, relocation, and sealing operations in a structured state-based control system.
+
+**Skills demonstrated:**
+- Sequential State Machine Control
+- Automatic Production Mode
+- Industrial Process Sequencing
 
 ![Main GRAFCET](images/Grafcet_main.png)
 
-*Figure 5. Main control sequence governing machine startup, operation mode selection, and system control.*
-
-## Automatic Mode GRAFCET
-
-![Auto Mode GRAFCET](images/Grafcet_AutoMode.png)
-
-*Figure 6. Automatic operating sequence controlling the complete filling and sealing cycle.*
-
-## Manual Mode GRAFCET
-
-![Manual Mode GRAFCET](images/Grafcet_ManualMode.png)
-
-*Figure 7. Manual control sequence used for testing, troubleshooting, and maintenance purposes.*
+*Figure X. Main GRAFCET sequence used to coordinate the complete machine operation.*
 
 ---
 
-# Human Machine Interface (HMI)
+## 2. Machine Control & Safety Logic
 
-A Siemens SIMATIC HMI was developed to provide user-friendly machine control and monitoring functions.
+The PLC program incorporates machine start, stop, reset, and safety handling functions to ensure reliable and safe operation under different operating conditions.
 
-## Physical HMI Panel
+**Skills demonstrated:**
+- Start / Stop / Reset Functions
+- Emergency Stop Handling
+- Fault Recovery Logic
+- HMI Integration
 
-![HMI Panel](images/HMI.png)
+![Network 1](images/Network1.png)
 
-*Figure 8. Siemens SIMATIC HMI integrated with physical control buttons.*
+*Figure X. Ladder logic implementing machine initialization, state transitions, reset handling, and HMI interaction.*
 
-## Main Menu
+---
 
-![HMI Main Menu](images/hmi_home.jpeg)
+## 3. Sensor-Based Decision Making
 
-*Figure 9. Main navigation page of the HMI.*
+The control system utilizes sensor feedback to validate process conditions before allowing machine state transitions. This ensures reliable operation and prevents incorrect process execution.
 
-## System Overview Page
+**Skills demonstrated:**
+- Sensor Feedback Verification
+- Automatic Sequence Triggering
+- Process Validation Logic
 
-![HMI Overview](images/hmi_overview.jpeg)
+![Network 3](images/Network3.png)
 
-*Figure 10. Overview page explaining machine operation and station functions.*
+*Figure X. Ladder logic utilizing sensor feedback and machine state verification for automatic sequence control.*
 
-## Operation Selection
+---
 
-![HMI Operation](images/hmi_choose_mode.jpeg)
+## 4. Manual Maintenance & Pneumatic Control
 
-*Figure 11. Selection page for Manual Mode and Automatic Mode.*
+A dedicated maintenance interface was developed using Siemens SIMATIC HMI to allow individual testing and troubleshooting of pneumatic actuators during commissioning and maintenance activities.
 
-## Automatic Mode
+**Skills demonstrated:**
+- Manual Maintenance Mode
+- Pneumatic Actuator Control
+- HMI Development
+- Machine Commissioning
 
-![HMI Auto](images/hmi_auto.jpeg)
+### Manual Mode Overview
 
-*Figure 12. Automatic operation screen used to control the production cycle.*
+![Manual Mode](images/hmi_manual.jpeg)
 
-## Manual Mode
+*Figure X. Manual maintenance page used for actuator testing and troubleshooting.*
 
-![HMI Manual](images/hmi_manual.jpeg)
-
-*Figure 13. Manual operation page for actuator testing and maintenance.*
-
-## Station 1 – Dispensing System
+### Station 1 – Cup Dispensing Control
 
 ![Station 1](images/hmi_manual_1st_station.jpeg)
 
-*Figure 14. Manual controls for the dispensing station.*
+*Figure X. Manual control interface for the cup dispensing mechanism.*
 
-## Station 2 – Filling System
+### Station 2 – Filling Station Control
 
 ![Station 2](images/hmi_manual_2nd_station.jpeg)
 
-*Figure 15. Manual controls for the filling station.*
+*Figure X. Manual control interface for the filling mechanism.*
 
-## Station 3 – Relocation System
+### Station 3 – Relocation System Control
 
 ![Station 3](images/hmi_manual_3rd_station_1st_oprtion.jpeg)
 
-*Figure 16. Manual controls for the pick-and-place relocation system.*
-
-## Station 3 – Actuator Selection
-
-![Station 3 Selection](images/hmi_manual_3rd_station_2option.jpeg)
-
-*Figure 17. Selection interface for additional relocation actuators.*
-
-## Station 3 – Y8 Actuator
-
-![Station 3 Y8](images/hmi8_manual_3rd_station_2nd_option.jpeg)
-
-*Figure 18. Dedicated control page for Y8 actuator operation.*
+*Figure X. Manual control interface for the pick-and-place relocation mechanism.*
 
 ---
 
@@ -219,6 +207,16 @@ The electrical control panel contains the Siemens S7-1200 PLC, power supply unit
 - System Commissioning
 - Troubleshooting
 - Technical Documentation
+
+---
+
+# Demonstration Video
+
+The following video demonstrates the complete operation of the Semi-Automated Filling and Sealing Machine, including the dispensing, filling, relocation, and sealing processes.
+
+▶️ **FYP Diploma: Semi-Automated Filling and Sealing Machine**
+
+https://youtu.be/4RgV-Rcvqg0
 
 ---
 
